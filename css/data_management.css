@@ -1,0 +1,82 @@
+body {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.main-card {
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.nav-tabs .nav-link {
+	color: #667eea;
+	font-weight: 500;
+	font-size: 1.2rem;
+	border: none;
+	border-bottom: 3px solid transparent;
+	transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+	border-bottom: 3px solid #667eea;
+}
+
+.nav-tabs .nav-link.active {
+	color: #764ba2;
+	background: transparent;
+	border-bottom: 3px solid #764ba2;
+}
+
+.table-actions {
+	display: flex;
+	gap: 5px;
+}
+
+.btn-action {
+	padding: 5px 10px;
+	font-size: 0.875rem;
+}
+
+.modal-header {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+}
+
+.form-label {
+	font-weight: 600;
+	color: #495057;
+}
+
+.data-table {
+	font-size: 0.9rem;
+}
+
+.data-table thead {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+}
+
+.data-table tbody tr:hover {
+	background-color: #f8f9fa;
+}
+
+.search-box {
+	max-width: 300px;
+}
+
+.tab-content {
+	padding: 20px;
+}
+
+.empty-state {
+	text-align: center;
+	padding: 40px;
+	color: #6c757d;
+}
+
+.empty-state i {
+	font-size: 3rem;
+	margin-bottom: 15px;
+}
