@@ -1,0 +1,17 @@
+{
+  "name": "machine-equipment-repair",
+  "version": "1.0.0",
+  "description": "Machine & Equipment Repair Record System",
+  "scripts": {
+    "update-charts": "node update-charts.js",
+    "postinstall": "node update-charts.js"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "chartjs-plugin-datalabels": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.102.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
